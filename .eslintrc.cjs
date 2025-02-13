@@ -15,6 +15,7 @@ module.exports = {
 		'no-tabs': 'off',
 		indent: ['error', 'tab'],
 		'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 2 }],
+		'linebreak-style': 'off',
 	},
 	overrides: [
 		{
@@ -25,4 +26,3 @@ module.exports = {
 		},
 	],
 };
-
