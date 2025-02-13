@@ -84,7 +84,7 @@ class AutoresController {
 			const autor = await Autor.pegarPeloId(params.id);
 			return res.status(200).json({ autor, livros: listaLivros });
 		} catch (err) {
-			res.status(500).json(err.message);
+			return res.status(500).json(err.message);
 		}
 	};
 }
