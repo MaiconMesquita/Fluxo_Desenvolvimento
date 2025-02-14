@@ -14,6 +14,7 @@ module.exports = {
 		'no-underscore-dangle': 0,
 		'no-tabs': 'off',
 		indent: ['error', 'tab'],
+		'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 2 }],
 	},
 	overrides: [
 		{
